@@ -173,8 +173,8 @@ paginate: 10
 gitment:
   username: "mayunmeiyouming"
   repo: "blogcomment"
-  client_id: "c784d83a32b1896d1be1"
-  client_secret: "f6f8600a47137554fb52c30d4afe06c06e532f39"
+  client_id: "d1b3c8e5e91f56591c49"
+  client_secret: "2d32bc5849ea9a8f5efa81415e70a2f22219ff51"
 #   redirect_uri: "Your redirect url"   # If you use a custom domain name
 
 # Build settings

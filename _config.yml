@@ -117,7 +117,7 @@ lang: "zh-CN"  # default lang is en
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
 #
-# night_mode: "auto"
+night_mode: "off"
 
 # Code badge setting
 # You can enable or disable the code badge and so on
@@ -138,10 +138,10 @@ lang: "zh-CN"  # default lang is en
 
 # Page default value
 # defaults:
-home:
-  heading: "Your awesome heading fheif"
-  subheading: "Your awesome subheading fsefsfsfs"
-  banner: "Your image url fsefsfsef"
+  # home:
+  #   heading: "Your awesome heading fheif"
+  #   subheading: "Your awesome subheading fsefsfsfs"
+  #   banner: "Your image url fsefsfsef"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also

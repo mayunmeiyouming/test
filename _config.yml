@@ -139,8 +139,8 @@ night_mode: "off"
 # Page default value
 defaults:
   home:
-    heading: "Your awesome heading fheif"
-    subheading: "Your awesome subheading fsefsfsfs"
+    heading: "水榭清松"
+    subheading: "水榭清松"
     banner: "Your image url fsefsfsef"
 
 # Banner default settings
@@ -163,7 +163,7 @@ defaults:
 # excerpt_size: 350
 
 # Pagination setting
-# paginate: 5
+paginate: 10
 
 # Disqus comments
 # disqus:

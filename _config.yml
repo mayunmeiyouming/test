@@ -174,7 +174,7 @@ gitment:
   username: "mayunmeiyouming"
   repo: "blogcomment"
   client_id: "c784d83a32b1896d1be1"
-  client_secret: "6ad63617f06749425040cab97f843d9fdc9008e7"
+  client_secret: "f6f8600a47137554fb52c30d4afe06c06e532f39"
 #   redirect_uri: "Your redirect url"   # If you use a custom domain name
 
 # Build settings

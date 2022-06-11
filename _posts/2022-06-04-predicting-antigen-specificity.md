@@ -1,14 +1,27 @@
 ---
 layout: post
-title:  "TCR BERT"
-date:   2022-06-04 22:10:01 +0800
-categories: [Paper]
-tag: 
-  - Deep Learning
+title: TCR BERT
+date: 2022-06-04 22:10:01 +0800
+subheading: 笔记
+author: huangwei
+categories: Paper
+banner:
+  video: null
+  loop: true
+  volume: 0
+  start_at: 0
+  image: https://bit.ly/3xTmdUP
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: gold"
+tags: 
+  - 深度学习 
   - 生物信息
+sidebar: [article-menu]
 ---
-
-> 笔记
 
 用于单细胞 TCR 分析实验的 α 链和 β 链、抗原和协变量的联合深度学习模型 
 

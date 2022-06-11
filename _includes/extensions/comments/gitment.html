@@ -5,11 +5,10 @@
     var gitment = new Gitment({
       id: '{{ page.id }}',
       owner: '{{ site.gitment.username }}',
+      admin: ['{{ site.gitment.username }}'],
       repo: '{{ site.gitment.repo }}',
-      oauth: {
-        client_id: '{{ site.gitment.client_id }}',
-        client_secret: '{{ site.gitment.client_secret }}',
-      },
+      client_id: '{{ site.gitment.client_id }}',
+      client_secret: '{{ site.gitment.client_secret }}'
     });
     gitment.render('gitment_thread')
   </script>

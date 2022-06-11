@@ -49,7 +49,7 @@ yat:
 # header_transparent: true
 
 # Google analytics
-# google_analytics: [Tracking ID]
+google_analytics: [G-QVCT3N4W1J]
 
 # If you want to generate website sitemap, you can set true
 sitemap: true

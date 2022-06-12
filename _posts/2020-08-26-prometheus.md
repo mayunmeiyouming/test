@@ -1,10 +1,25 @@
 ---
 layout: post
-title:  "Prometheus 和 Golang"
-date:   2020-08-26 18:49:01 +0800
-categories: [Tech]
+title: Prometheus 和 Golang
+date: 2020-08-26 18:49:01 +0800
+subheading: 
+author: huangwei
+categories: Tech
+banner:
+  video: null
+  loop: true
+  volume: 0
+  start_at: 0
+  image: /assets/images/pexels.jpeg
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: gold"
 tag: 
   - Prometheus
+sidebar: [article-menu]
 ---
 
 ## 一、安装 Prometheus

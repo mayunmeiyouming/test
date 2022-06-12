@@ -2,12 +2,12 @@
 # langs refer to https://cloud.google.com/translate/docs/languages
 
 - lang: en
-  img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
+  img: null
   text: English
 
 - lang: zh-CN
-  img: https://cdn.countryflags.com/thumbs/china/flag-400.png
-  text: Chinese(Simple)
+  img: null
+  text: Chinese
 
 # - lang: fr
 #   img: https://cdn.countryflags.com/thumbs/france/flag-400.png

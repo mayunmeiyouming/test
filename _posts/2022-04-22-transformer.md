@@ -1,14 +1,28 @@
 ---
 layout: post
-title:  "Transformer"
-date:   2022-03-30 22:20:01 +0800
-categories: [Tech]
+title: Transformer
+date: 2022-04-22 22:20:01 +0800
+subheading: 学习笔记
+author: huangwei
+categories: Tech
+banner:
+  video: null
+  loop: true
+  volume: 0
+  start_at: 0
+  image: /assets/images/pexels.jpeg
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: gold"
 tag: 
   - Deep Learning
   - Transformer
+  - AI
+sidebar: [article-menu]
 ---
-
-> 学习笔记
 
 # Self Attention
 

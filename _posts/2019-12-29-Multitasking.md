@@ -1,14 +1,27 @@
 ---
 layout: post
-title:  "Chapter 7 Multitasking"
-date:   2019-12-29 13:45:01 +0800
-categories: [Tech]
+title: "Chapter 7 Multitasking"
+date: 2019-12-29 13:45:01 +0800
+subheading: 本文为翻译
+author: huangwei
+categories: Tech
+banner:
+  video: null
+  loop: true
+  volume: 0
+  start_at: 0
+  image: /assets/images/pexels.jpeg
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: gold"
 tag: 
   - Intel 80386 Reference Programmer's Manual Table of Contents
-  - 汇编
+  - Assembly
+sidebar: [article-menu]
 ---
-
->本文为翻译
 
 为了提供有效的，受保护的多任务处理，80386采用了几种特殊的数据结构。但是，它没有使用特殊的指令来控制多任务。相反，当它们引用特殊数据结构时，它会以不同的方式去解释普通控制传递指令。支持多任务的寄存器和数据结构有：
 

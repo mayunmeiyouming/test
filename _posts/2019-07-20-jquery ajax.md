@@ -1,14 +1,29 @@
 ---
 layout: post
-title:  "jquery异步提交数据"
-date:   2019-07-20 16:01:01 +0800
-categories: [Tech]
+title: Jquery 异步提交数据
+date: 2019-07-20 16:01:01 +0800
+subheading: 
+author: huangwei
+categories: Tech
+banner:
+  video: null
+  loop: true
+  volume: 0
+  start_at: 0
+  image: /assets/images/pexels.jpeg
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: gold"
 tag: 
   - Jquery
   - Web
+sidebar: [article-menu]
 ---
 
-### JQuery提交普通表单,使用serialize()
+### JQuery 提交普通表单,使用 serialize()
 
 使用`fastjson.jar`对返回的数据转换成json数据
 
@@ -22,7 +37,7 @@ form表单:
 </form>
 ```
 
-JQuery提交数据:
+JQuery 提交数据:
 
 ```js
 $.ajax({
@@ -42,11 +57,11 @@ $.ajax({
 });
 ```
 
-注意:由于使用FormData函数处理了数据,所以`processData`必须设置为`false`.`processData`的含义为处理数据,默认为`true`,将发送的数据将被转换为对象.
+注意:由于使用 FormData 函数处理了数据,所以 `processData` 必须设置为 `false`.`processData` 的含义为处理数据,默认为 `true`,将发送的数据将被转换为对象.
 
-不知为何FormData函数处理普通表单,根本发送不出去...
+不知为何 FormData 函数处理普通表单,根本发送不出去...
 
-Servlet处理数据:
+Servlet 处理数据:
 
 ```js
 JSONObject jsonObject = new JSONObject();
@@ -65,7 +80,7 @@ response.getOutputStream().write(jsonObject.toString().getBytes("utf-8"));
 
 ### JQuery提交带有文件的表单,使用FormData处理数据
 
-这里使用了`commons-fileupload.jar`来处理接收的数据,使用`fastjson.jar`对返回的数据转换成json数据
+这里使用了 `commons-fileupload.jar` 来处理接收的数据,使用 `fastjson.jar` 对返回的数据转换成 json 数据
 
 form表单:
 
@@ -76,7 +91,7 @@ form表单:
 </form>
 ```
 
-JQuery提交数据:
+JQuery 提交数据:
 
 ```js
 var formData = new FormData();
@@ -107,9 +122,9 @@ $.ajax({
 
 `$('#file')[0].files[0]` 这个似乎是最后一个`[0]`代表第几个文件,多文件时要注意,具体等以后遇到再说.
 
-当将contentType选项设置为false时，会强制jQuery不要添加Content-Type头，否则边界字符串将会丢失。
+当将 contentType 选项设置为 false 时，会强制 jQuery 不要添加 Content-Type 头，否则边界字符串将会丢失。
 
-Servlet处理数据:
+Servlet 处理数据:
 
 ```js
 if (ServletFileUpload.isMultipartContent(request)) {
@@ -156,9 +171,9 @@ if (ServletFileUpload.isMultipartContent(request)) {
 }
 ```
 
-### JQuery提交表单,带有普通表单和文件,使用序列化
+### JQuery 提交表单,带有普通表单和文件,使用序列化
 
-JQuery提交数据:
+JQuery 提交数据:
 
 ```js
 var formData = new FormData();

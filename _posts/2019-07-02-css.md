@@ -10,7 +10,7 @@ banner:
   loop: true
   volume: 0
   start_at: 0
-  image: https://bit.ly/3xTmdUP
+  image: /assets/images/pexels.jpeg
   opacity: 0.618
   background: "#000"
   height: "100vh"

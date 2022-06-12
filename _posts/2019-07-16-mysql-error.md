@@ -1,10 +1,25 @@
 ---
 layout: post
-title:  "linux 环境下安装 Mysql, 以及 mysql 运程连接"
-date:   2019-07-16 16:01:01 +0800
-categories: [Tech]
+title: Linux 环境下安装 MySQL, 以及 MySQL 运程连接
+date: 2019-07-16 16:01:01 +0800
+subheading: 
+author: huangwei
+categories: Tech
+banner:
+  video: null
+  loop: true
+  volume: 0
+  start_at: 0
+  image: /assets/images/pexels.jpeg
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: gold"
 tag: 
-  - Mysql
+  - MySQL
+sidebar: [article-menu]
 ---
 
 ### linux 环境安装 mysql

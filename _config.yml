@@ -34,8 +34,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://mayunmeiyouming.github.io # the base hostname & protocol for your site, e.g. http://example.com
-favicon: https://mayunmeiyouming.github.io/assets/images/cartoon-avatar.jpg # the favicon for your site
+url: 127.0.0.1:4000 # the base hostname & protocol for your site, e.g. http://example.com
+favicon: /assets/images/cartoon-avatar.jpg # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -140,7 +140,7 @@ night_mode: "off"
 defaults:
   home:
     heading: "水榭清松"
-    subheading: "水榭清松"
+    subheading: ""
     banner: "Your image url fsefsfsef"
 
 # Banner default settings

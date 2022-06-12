@@ -68,10 +68,10 @@
       {%- if banner_video -%}
         <video
           autoplay=""
-          poster="{{ banner_image }}"
+          poster="{{ banner_image | prepend: site.baseurl }}"
           playsinline
         >
-          <source src="{{ banner_video }}">
+          <source src="{{ banner_video | prepend: site.baseurl }}">
         </video>
         <script>
           (function() {
@@ -100,8 +100,8 @@
           })();
         </script>
       {%- else -%}
-        <div style="background-image: url({{ banner_image }})"></div>
-        <img class="img-placeholder" src="{{ banner_image }}">
+        <div style="background-image: url({{ banner_image | prepend: site.baseurl }})"></div>
+        <img class="img-placeholder" src="{{ banner_image | prepend: site.baseurl }}">
       {%- endif -%}
     </div>
     <div class="wrapper">
